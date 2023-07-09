@@ -1,31 +1,118 @@
 *{
     margin: 0px;
     padding: 0px;
+    font-family: sans-serif;
 }
-.container{
+nav{
     display: flex;
-    justify-content: space-around;
-    gap: 20px;
-    background-color: bisque;
+    justify-content: space-between;
+    align-items: center;
     padding: 20px;
+}
+.nav-title{
+    color: #181818;
+    font-size: 45px;
+    font-weight: 800px;
+}
+.text-primary{
+    color: #FD6E0A;
+}
+nav > ul{
+    display: flex;
     align-items: center;
 }
-
-.container li:hover{
-    background-color: aquamarine;
-}
-.menus{
+nav li{
     list-style: none;
-    display:flex;
-    justify-content: space-around;
-    gap: 10px;
-    align-items: center;
-    padding: 5px;
+    margin-right: 50px;
+    
+}
+nav a{
+    text-decoration: none;
+    color: #474747;
+}
+.section-title{
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+.section-description{
+
 }
 .btn-primary{
-    padding: 10px;
+    padding: 15px 35px;
     border-radius: 5px;
     border: none;
-    background-color: tomato;
+    background: #FD6E0A;
     color: white;
+    font-size:20px;
+    font-weight: 700;
+}
+.header{
+    background-color: #fff8f3;
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+.banner{
+    padding: 30px 30px 0px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.banner .profile-picture{
+   width: 500px; 
+}
+.banner-greeting{
+    font-size: 45px;
+    color: #474747;
+    margin-bottom: 0px;
+}
+.banner-title{
+    font-size: 85px;
+    font-weight: 700px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.banner-description{
+    margin-bottom: 10px;
+}
+.banner-content{
+    max-width: 500px;
+}
+
+/* about style */
+
+.about{
+    padding: 130px;
+    border-radius: 10px;
+    background: #fff8f3;
+    margin: 130px 0px;
+
+}
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+main section{
+    margin-top: 130px;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 32px;
+}
+.about-info{
+    text-align: center;
+}
+.skills-container{
+    display: flex;
+    gap: 24px;
+}
+.skill{
+    padding: 30px;
+    border-radius: 5px;
+    background: white;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    
 }
